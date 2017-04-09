@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表单操作1</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<form>
+<table border="1" bordercolor="black" cellspacing="0px">
+	<tr>
+		<td colspan="2" align="center">用户登录</td>
+	</tr>
+	<tr>
+		<td>用户名：</td>
+		<td><input type="text" name="name"></td>
+	</tr>
+	<tr>
+		<td>密码：</td>
+		<td><input type="password"></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center">
+			<input type="button" name="button" value="登录">
+			<input type="submit" name="submit" value="注册">
+		</td>
+	</tr>
+</table>
+</form>
+<!--table标签在form表单标签里，不能在td中，否则提交的信息只在一个单元格中-->
+</body>
+</html>
