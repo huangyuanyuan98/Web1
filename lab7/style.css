@@ -1,0 +1,25 @@
+body{
+	font-size: 12px;
+	font-family: Arial;
+	color: gray;
+	line-height:2em;
+}
+a{
+	color: #727272;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.xixi{
+	font-size: 14px;
+	color: #b9f605;
+	font-weight: bold;
+}
+.xixi a{
+	color: white;
+	text-decoration: none;
+}
+#hh{
+	color: #fdb306;
+}
