@@ -1,0 +1,37 @@
+*{ 
+	padding:0px; 
+ 	margin:0px; 
+ 	text-align:left; 
+} 
+li{
+	list-style-type:none;
+}
+.lili{
+	background-image: url(../image/bg[1150].gif);
+	width:1005px;
+	height:75px;
+	background-repeat: no-repeat;
+	text-align:center;
+	color:#b9f605;
+	font-size:14px;
+	font-weight:bold; 	
+}
+.lili ul{
+	vertical-align:middle;
+}
+.lili a{
+	font-family: 宋体;
+	color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.lili a:hover{
+	color:#b9f605;
+}
+.lili li{
+	float: left;
+	padding:0px 15px;
+}
+.lili .teshu{
+	color: #fdb306;
+}

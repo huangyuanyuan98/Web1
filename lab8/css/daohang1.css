@@ -1,0 +1,43 @@
+*{ 
+ 	padding: 0px; 
+ 	margin: 0px; 
+} 
+#chanpin{
+	background-image: url(../image/left_nav_title.gif);
+	width: 183px;
+	height: 35px;
+	color: white;
+	text-align: center;
+	padding-top: 12px;
+}
+ul{
+	list-style-type:none;
+	list-style-image: url(../image/left_cur[383].gif); 
+	background-image: url(../image/left_nav_txt[7451].gif);
+	width: 183px;
+}
+ul li{ 
+ 	width: 183px; 
+ 	margin-left: 40px;
+ 	background-position: -3em 90%;  
+ 	padding-top: 5px; 
+ 	background-repeat: no-repeat; 
+ 	background-image: url(../image/left_nav_item[6900].gif); 
+ 	height: 30px; 
+} 
+#dijiao{
+	background-image: url(../image/left_nav_bottom[2591].gif);
+	width: 183px; 
+ 	height: 35px; 
+}
+a{
+	font-family: 宋体;
+	font-size: 18px;
+	color: black;
+    font-weight: normal;
+    text-decoration: none;
+}
+a:hover{
+	font-size: 20px;
+	color: red;
+}
