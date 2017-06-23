@@ -1,0 +1,348 @@
+*{
+	color: #000066;
+	font-family: 宋体;
+	font-size: 18px;
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-image: url(../images/background.jpg);
+}
+#header{
+	margin: auto;
+}
+.logo{
+	background-image: url(../images/logo_background.jpg);
+	background-size: 1350px 180px;
+	height: 180px;
+}
+.logo img{
+	width: 148px;
+	height:178px;
+	margin-left: 200px;
+}
+.nav{
+	background-color: #99CCFF;
+	height: 40px;
+}
+.daohang{
+	margin-left: 150px;
+}
+.daohang ul li{
+	list-style: none;
+	float: left;
+}
+.daohang a{
+	text-decoration: none;
+	line-height: 40px;
+	font-weight: bolder;
+}
+.daohang a:hover{
+	text-decoration: underline;
+	color: #FF0066;
+	font-weight: bolder;
+}
+.search input[type='text']{
+	width: 140px;
+	height: 19px;
+	background-color: #f8f5ee;
+	margin-right: -11px;
+	margin-top: 6px;
+	margin-left: 200px;
+}
+.search button[type='button']{
+	width: 55px;
+	height: 25px;
+	background-color: #999999;
+	color: #fff;
+	border: 1px solid #f8f5ee;
+	margin-top: 6px;
+}
+#content{
+	margin-top: 20px;
+	width: 900px;
+	float: none;
+	margin-right:auto;
+	margin-left: auto; 
+}
+.content_top{
+	width: 1000px;
+	height: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.biaodan{
+	margin-left: 20px;
+}
+.dengluchuangkou{
+	height: 50px;
+	width: 200px;
+	background-image: url(../images/dengluchuangkou.png);
+	background-repeat: no-repeat;
+	background-size: 200px 50px;
+	margin-top: 20px;
+}
+.denglu{
+	float: left;
+	background-image: url(../images/biankuang_background.jpg);
+	background-size: 240px 300px;
+	width: 240px;
+	height: 300px;
+	background-repeat: no-repeat;
+}
+.biaodan{
+	padding-top: 90px;
+	margin-top: -50px;
+}
+.denglu input[type='submit']{
+	margin-top: 20px;
+	margin-left: 70px;
+}
+.lvyou{
+	padding-top: -20px;
+	float: left;
+	width: 600px;
+	height: 290px;
+	margin-left: 70px;
+}
+.lvyoutuijian{
+	width: 240px;
+	height: 50px;
+	background-image: url(../images/lvyoutuijian_.jpg);
+	margin-left: auto;
+	margin-right: auto;
+}
+.lvyou_content{
+	margin-top: 10px;
+	float: left;
+	width: 600px;
+	height: 240px;
+	background-image: url(../images/biankuang_.png);
+	background-size: 600px 240px;
+}
+.lvyou_content ul{
+	padding-top: 10px;
+	padding-right: 17px;
+	padding-left: 35px;
+	line-height: 25px;
+}
+.lvyou_content a{
+	color: #330000;
+	text-decoration: none;
+	font-weight: bolder;
+}
+.lvyou_content a:hover{
+	text-decoration: underline;
+}
+.content_center{
+	width: 1000px;
+	height: 430px;
+}
+.shuwenhua{
+	width: 450px;
+	height: 430px;
+	float: left;
+}
+.shuwenhua_logo{
+	background-image: url(../images/shuwenhua.jpg);
+	margin-left: 80px;
+	background-repeat: no-repeat;
+	background-size: 256px 45px;
+	width: 450px;
+	height: 45px;
+}
+.shuwenhua_content{
+	background-image: url(../images/shuwenhuabiankuang.png);
+	background-repeat: no-repeat;
+	background-size: 450px 330px;
+	width: 450px;
+	height: 330px;
+}
+.shuwenhua_content ul{
+	list-style-image: url(../images/next.png);
+	line-height: 25px;
+	color: #660000;
+	margin-left: 60px;
+	margin-right: 20px;
+	padding-top: 25px;
+}
+.shuwenhua_content a{
+	color: #330000;
+	font-weight: bolder;
+}
+.shuwenhua_content a:hover{
+	text-decoration: underline;
+}
+.fengturenqing{
+	width: 300px;
+	height: 430px;
+	margin-left: 40px;
+	float:left;
+}
+.fengturenqing_logo{
+	background-image: url(../images/fengturenqing.jpg);
+	margin-left: 60px;
+	background-repeat: no-repeat;
+	background-size: 256px 45px;
+	width: 300px;
+	height: 45px;
+}
+.fengturenqing_content{
+	background-image: url(../images/shuwenhuabiankuang.png);
+	background-repeat: no-repeat;
+	background-size: 380px 330px;
+	width: 380px;
+	height: 330px;
+}
+.fengturenqing_content ul{
+	list-style-image: url(../images/next.png);
+	line-height: 30px;
+	color: #660000;
+	margin-left: 55px;
+	margin-right: 20px;
+	padding-top: 25px;
+}
+.fengturenqing_content a{
+	color: #330000;
+	font-weight: bolder;
+}
+.fengturenqing_content a:hover{
+	text-decoration: underline;
+}
+.content_bottom{
+	width: 900px;
+	height: 680px;
+}
+.food{
+	width: 450px;
+	height: 400px;
+	float: left;
+}
+.food_logo{
+	background-image: url(../images/food.jpg);
+	margin-left: 50px;
+	background-repeat: no-repeat;
+	background-size: 330px 45px;
+	width: 450px;
+	height: 45px;
+}
+.food_content{
+	background-image: url(../images/biankuang.jpg);
+	background-repeat: no-repeat;
+	background-size: 450px 330px;
+	width: 450px;
+	height: 330px;
+}
+.food_content ul{
+	list-style-image: url(../images/next.png);
+	line-height: 20px;
+	color: #660000;
+	margin-left: 50px;
+	margin-right: 53px;
+	padding-top: 40px;
+}
+.food_content a{
+	color: #663333;
+	font-weight: bolder;
+}
+.food_content a:hover{
+	text-decoration: underline;
+}
+.people{
+	width: 450px;
+	height: 400px;
+	float: left;
+}
+.people_logo{
+	background-image: url(../images/people.jpg);
+	margin-left: 50px;
+	background-repeat: no-repeat;
+	background-size: 330px 45px;
+	width: 450px;
+	height: 45px;
+}
+.people_content{
+	background-image: url(../images/biankuang.jpg);
+	background-repeat: no-repeat;
+	background-size: 450px 330px;
+	width: 450px;
+	height: 330px;
+}
+.people_content ul{
+	list-style-image: url(../images/next.png);
+	line-height: 22px;
+	color: #660000;
+	margin-left: 50px;
+	margin-right: 53px;
+	padding-top: 40px;
+}
+.people_content a{
+	color: #663333;
+	font-weight: bolder;
+}
+.people_content a:hover{
+	text-decoration: underline;
+}
+.shufengcai{
+	width: 1000px;
+	height: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.photos img{
+	float: left;
+	width: 280px;
+	height: 250px;
+	padding: 8px;
+}
+#footer{
+    width: 1000px;
+	height: 105px;
+	margin-right:auto;
+	margin-left: auto; 
+}
+.yewei{
+	width: 800px;
+	margin-right:auto;
+	margin-left: auto; 
+}
+.footer1{
+	margin-left: 80px;
+	margin-top: 20px;
+	width: 700px;
+}
+.footer1 li{
+	list-style: none;
+	float: left;
+	font-weight: bold;
+}
+.footer1 a{
+	color: #330000;
+	font-size: 12px;
+	text-decoration: none;
+}
+.footer2{
+	float: left;
+	width: 700px;
+	margin-left:120px;
+}
+.footer2 img{
+	margin-top: 20px;
+	padding-right:auto;
+	padding-left: auto; 
+}
+.footer3{
+	float: left;
+	width: 700px;
+	margin-left: 30px; 
+}
+.footer3 p{
+	color: #660000;
+	font-size: 10px;
+	text-align: center;
+	padding-right:auto;
+	padding-left: auto; 
+}

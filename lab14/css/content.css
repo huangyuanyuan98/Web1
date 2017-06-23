@@ -1,0 +1,248 @@
+*{
+	color: #000066;
+	font-family: 宋体;
+	font-size: 18px;
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-image: url(../images/background.jpg);
+}
+#header{
+	margin: auto;
+	width: 1350px;
+}
+.logo{
+	background-image: url(../images/logo_background.jpg);
+	background-size: 1350px 180px;
+	height: 180px;
+}
+.logo img{
+	width: 148px;
+	height:178px;
+	margin-left: 200px;
+}
+.nav{
+	background-color: #99CCFF;
+	height: 40px;
+}
+.daohang{
+	margin-left: 150px;
+}
+.daohang ul li{
+	list-style: none;
+	float: left;
+}
+.daohang a{
+	text-decoration: none;
+	line-height: 40px;
+	font-weight: bolder;
+}
+.daohang a:hover{
+	text-decoration: underline;
+	color: #FF0066;
+	font-weight: bolder;
+}
+.search input[type='text']{
+	width: 140px;
+	height: 19px;
+	background-color: #f8f5ee;
+	margin-right: -11px;
+	margin-top: 6px;
+	margin-left: 200px;
+}
+.search button[type='button']{
+	width: 55px;
+	height: 25px;
+	background-color: #999999;
+	color: #fff;
+	border: 1px solid #f8f5ee;
+	margin-top: 6px;
+}
+#content{
+	margin-top: 20px;
+	width: 900px;
+	margin-right:auto;
+	margin-left: auto; 
+}
+.mianbaoxie{
+	width: 700px;
+	height: 20px;
+}
+.mianbaoxie ul li{
+	list-style: none;
+	float: left;
+}
+.mianbaoxie ul li a{
+	color: #CC0033;
+	font-weight: bolder;
+}
+.neirong{
+	margin-right:auto;
+	margin-left: auto; 
+}
+.biaoti h1{
+	font-weight: bolder;
+	padding-left: 150px;
+	font-size: 30px;
+}
+.biaoti h2{
+	font-weight: bolder;
+	text-align: center;
+	font-size: 15px;
+	color: #666666;
+}
+.tu_p{
+	width: 1000px;
+}
+.h1{
+	width: 1000px;
+	float: left;
+}
+.tu{
+	float: left;
+	width: 400px;
+	height: 300px;
+}
+.p{
+	float: left;
+	margin-left: 70px;
+	padding-top: 70px;
+	width: 400px;
+	height: 300px;
+}
+.neirong h1{
+	font-family:楷体;
+	font-weight: bolder;
+	padding-left: 170px;
+	font-size: 26px;
+	color: #CC0033;
+}
+.neirong img{
+	width: 400px;
+	height: 300px;
+}
+.neirong p{
+	float: left;
+	font-size: 20px;
+	color: #663333;
+	font-weight: bold;
+}
+.bottom{
+	float: left;
+	width: 900px;
+}
+.bottom p{
+	text-align: center;
+	margin-top: 20px;
+	color: #0099CC;
+	font-size: 10px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.bottom p a{
+	font-size: 10px;
+	color: #666666;
+	text-decoration: underline;
+}
+.pianmu{
+	width: 800px;
+	margin-right:auto;
+	margin-left: auto; 
+}
+#footer{
+    width: 1000px;
+	height: 105px;
+	margin-right:auto;
+	margin-left: auto; 
+}
+.pinglun_logo{
+	margin-left:200px;
+	background-image: url(../images/pinglun.jpg);
+	background-size: 200px 50px;
+	width: 200px;
+	height: 50px;
+}
+.pinglun{
+	float: left;
+	width: 900px;
+}
+.pinglunliebiao p{
+	margin-left:150px;
+	color: #666666;
+	background-color: #CCCCCC;
+}
+.name{
+	font-weight: bold;
+	color: #660000;
+	font-size: 15px;
+}
+.pinglunbiaodan{
+	margin-top: 10px;
+	padding-left: 150px;
+}
+.pinglunbiaodan p{
+	font-weight: bolder;
+}
+.pinglunbiaodan input[type='text']{
+	width: 750px;
+	height: 50px;
+	background-color: #f8f5EE;
+	float: right;
+}
+.pinglunbiaodan botton[type='botton']{
+	background-color: #336666;
+	float: right;
+}
+.qiqi{
+	margin-top: 10px;
+	width: 700px;
+	height: 30px;
+}
+.yewei{
+	margin-top: 20px;
+	float: left;
+	width: 800px;
+	margin-right:auto;
+	margin-left: auto; 
+}
+.footer1{
+	margin-left: 240px; 
+	margin-top: 20px;
+	width: 700px;
+}
+.footer1 li{
+	list-style: none;
+	float: left;
+	font-weight: bold;
+}
+.footer1 a{
+	color: #330000;
+	font-size: 12px;
+	text-decoration: none;
+}
+.footer2{
+	float: left;
+	width: 700px;
+	margin-left:240px;
+}
+.footer2 img{
+	margin-top: 20px;
+	padding-right:auto;
+	padding-left: auto; 
+}
+.footer3{
+	float: left;
+	width: 700px;
+	margin-left: 150px; 
+}
+.footer3 p{
+	color: #660000;
+	font-size: 10px;
+	text-align: center;
+	padding-right:auto;
+	padding-left: auto; 
+}
